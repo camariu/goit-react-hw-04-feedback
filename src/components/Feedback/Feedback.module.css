@@ -1,0 +1,14 @@
+.buttons {
+ display: flex;
+ gap: 30px;
+ margin-top: 50px;
+}
+
+.buttons button {
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+.buttons button:hover{
+    background-color:aqua;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
